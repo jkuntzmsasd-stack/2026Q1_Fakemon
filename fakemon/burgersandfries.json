@@ -1,0 +1,34 @@
+{
+  "id":          "burgersandfries",
+  "name":        "Can I Get A Burger With a Side of Fries",
+  "createdBy":   "Johann",
+  "emoji":       "🍔",
+  "type":        "Normal",
+  "description": "A fakemon that lives in the burger joint.",
+  "hp":       100,
+  "power":    900,
+  "speed":    4,
+  "defense":  9,
+  "accuracy": 75,
+
+  "moves": [
+    {
+      "id":           "patty_bun",
+      "name":         "Put The Patty On The Bun",
+      "desc":         "Working a respectable job at a fast-food joint.",
+      "speed":        "fast",
+      "damage":         [2, 90],
+      "status":       null,
+      "statusChance": 0
+    },
+    {
+      "id":           "burnt_crisp",
+      "name":         "Burnt To A Crisp",
+      "desc":         "You failed cooking a burger.",
+      "speed":        "slow",
+      "damage":         [89, 90],
+      "status":       "burn",
+      "statusChance": 0.635
+    }
+  ]
+}
