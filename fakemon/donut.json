@@ -4,7 +4,7 @@
   "createdBy":   "Rowan James Rogers",
   "emoji":       "🍩",
   "type":        "Fire",
-  "description": "A short description of your Fakemon.",
+  "description": "A inocent destructive donut.",
   "hp":       189,
   "power":    119,
   "speed":    90,
@@ -54,7 +54,7 @@
       "name":         "📉 Cinder Smoke",
       "desc":         "Thick donut frosting clouds the enemy's vision.",
       "speed":        "medium",
-      "damage": [0, 0],
+      "damage": [15, 15],
       "status":       "statdwn",
       "statusChance": 1.0,
       "statTarget":   "speed"
@@ -67,7 +67,7 @@
       "damage": [10, 16],
       "statuses": [
         { "status": "poison",  "statusChance": 0.5 },
-        { "status": "confuse", "statusChance": 0.4 }
+        { "status": "confuse", "statusChance": 0.40 }
       ]
     }
 
